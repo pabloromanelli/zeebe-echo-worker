@@ -1,0 +1,27 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.4.0'
+}
+
+group 'com.github.pabloromanelli'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    implementation "io.zeebe:zeebe-client-java:0.24.2"
+}
+
+compileKotlin {
+    kotlinOptions {
+        jvmTarget = "11"
+    }
+}
+
+task copyDependencies(type: Copy) {
+    group = "Dependencies"
+    from configurations.default
+    into "dependencies"
+}
