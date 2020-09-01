@@ -1,7 +1,10 @@
 # zeebe-echo-worker
+![Publish Docker image](https://github.com/pabloromanelli/zeebe-echo-worker/workflows/Publish%20Docker%20image/badge.svg)
+
 Async Zeebe (zeebe.io) worker useful for testing.
 
-Will complete, fail o throw an error immediately and asynchronously.
+This worker will immediately and asynchronously complete, fail o throw an error on every job.
+Can be used to load test Zeebe clusters.
 
 ## Docker Image
 ```
