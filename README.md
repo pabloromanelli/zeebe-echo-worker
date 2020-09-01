@@ -6,13 +6,6 @@ Async Zeebe (zeebe.io) worker useful for testing.
 This worker will immediately and asynchronously complete, fail o throw an error on every job.
 Can be used to load test Zeebe clusters.
 
-## Docker Image
-```
-TODO
-```
-
-#### Example Usage
-
 ## Configuration
 ### Job Headers
 - `action`: `complete` | `fail` | `error`. Default: `complete`
