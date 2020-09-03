@@ -1,5 +1,5 @@
 # zeebe-echo-worker
-![Publish Docker image](https://github.com/pabloromanelli/zeebe-echo-worker/workflows/Publish%20Docker%20image/badge.svg)
+![Docker](https://github.com/pabloromanelli/zeebe-echo-worker/workflows/Docker/badge.svg)
 
 Async Zeebe (zeebe.io) worker useful for testing.
 
